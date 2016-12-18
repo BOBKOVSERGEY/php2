@@ -1,23 +1,27 @@
 <?php
 
-class Article {
+abstract class Article {
     public $title;
     public $text;
-    public function __construct($title, $text)
-    {
-        $this->title = $title;
-        $this->text = $text;
-    }
 
-    public function view()
-    {
+    static protected $delim = ': ';
+
+    public function view() {
         echo $this->title;
-        echo '<br>';
-        echo $this->text;
     }
 }
 
-$a = new Article('Заголовок новости', 'текст новости');
-$a->view();
+class NewsArticle extends Article {
+    public $author;
+    public function view()
+    {
+        echo $this->title . self::$delim . $this->author;
+    }
+}
 
+$a = new NewsArticle();
+
+$a->title = 'heading';
+$a->author = 'Ivanov';
+$a->view();
 
