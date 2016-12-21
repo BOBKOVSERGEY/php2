@@ -1,9 +1,2 @@
 .idea
-.DS_Store
-Thumbs.db
-node_modules/
-*.log
-*.psd
-*.ai
-*.pdf
-function.php
+package.json
