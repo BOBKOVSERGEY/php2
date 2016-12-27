@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b2b8367-ef49-40fa-8a87-20b6bd2d59ea" name="Default" comment="Абстрактные классы">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/basetemplate/models/NewsModel.php" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/basetemplate/models/News.php" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basetemplate/classes/AbstractModel.php" afterPath="$PROJECT_DIR$/basetemplate/classes/AbstractModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basetemplate/classes/DB.php" afterPath="$PROJECT_DIR$/basetemplate/classes/DB.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basetemplate/controllers/NewsController.php" afterPath="$PROJECT_DIR$/basetemplate/controllers/NewsController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/basetemplate/models/NewsModel.php" afterPath="$PROJECT_DIR$/basetemplate/models/NewsModel.php" />
     </list>
     <list id="8a1cd199-2f4a-4248-a25b-1a7136296813" name="New changelist" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -34,19 +33,19 @@
         <entry file="file://$PROJECT_DIR$/basetemplate/controllers/NewsController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
               <folding>
-                <marker date="1482825699842" expanded="true" signature="120:151" ph="SELECT * FRO... news" />
+                <marker date="1482830159787" expanded="true" signature="233:264" ph="SELECT * FRO... news" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NewsModel.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NewsModel.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basetemplate/models/NewsModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            <state relative-caret-position="170">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -65,18 +64,24 @@
       <file leaf-file-name="AbstractModel.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basetemplate/classes/AbstractModel.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-              <folding />
+            <state relative-caret-position="204">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+              <folding>
+                <marker date="1482834073641" expanded="true" signature="165:179" ph="SELECT * FRO... ${$table}" />
+                <marker date="1482834073641" expanded="true" signature="364:377" ph="SELECT * FRO... " />
+                <marker date="1482834073641" expanded="true" signature="364:378" ph="SELECT * FRO... ${static::$table}" />
+                <marker date="1482834073641" expanded="true" signature="364:413" ph="SELECT * FRO... ${static::$table}" />
+                <marker date="1482834073641" expanded="true" signature="364:414" ph="SELECT * FRO... ${static::$table}" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DB.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="DB.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basetemplate/classes/DB.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+            <state relative-caret-position="374">
+              <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
               <folding />
             </state>
           </provider>
@@ -107,9 +112,10 @@
         <option value="$PROJECT_DIR$/basetemplate/classes/IModel.php" />
         <option value="$PROJECT_DIR$/basetemplate/classes/View.php" />
         <option value="$PROJECT_DIR$/basetemplate/NewsModel.php" />
-        <option value="$PROJECT_DIR$/basetemplate/classes/AbstractModel.php" />
         <option value="$PROJECT_DIR$/basetemplate/controllers/NewsController.php" />
         <option value="$PROJECT_DIR$/basetemplate/classes/DB.php" />
+        <option value="$PROJECT_DIR$/basetemplate/classes/AbstractModel.php" />
+        <option value="$PROJECT_DIR$/basetemplate/models/NewsModel.php" />
       </list>
     </option>
   </component>
@@ -347,7 +353,7 @@
       <workItem from="1482316060900" duration="6647000" />
       <workItem from="1482728005017" duration="13797000" />
       <workItem from="1482817750098" duration="3090000" />
-      <workItem from="1482823413141" duration="2390000" />
+      <workItem from="1482823413141" duration="6243000" />
     </task>
     <task id="LOCAL-00001" summary="Добавили еще func">
       <created>1482036758261</created>
@@ -374,7 +380,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48665000" />
+    <option name="totallyTimeSpent" value="52518000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="951" y="0" width="970" height="814" extended-state="0" />
@@ -386,7 +392,8 @@
       <window_info id="Packages" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982457" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32824427" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977098" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24945055" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32519084" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -397,7 +404,6 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -430,7 +436,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1482834073641" expanded="true" signature="165:179" ph="SELECT * FRO... ${$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:377" ph="SELECT * FRO... " />
+            <marker date="1482834073641" expanded="true" signature="364:378" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:413" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:414" ph="SELECT * FRO... ${static::$table}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -439,7 +451,7 @@
         <state relative-caret-position="187">
           <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
           <folding>
-            <marker date="1482825699842" expanded="true" signature="120:151" ph="SELECT * FRO... news" />
+            <marker date="1482830159787" expanded="true" signature="233:264" ph="SELECT * FRO... news" />
           </folding>
         </state>
       </provider>
@@ -486,7 +498,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
           <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-          <folding />
+          <folding>
+            <marker date="1482834073641" expanded="true" signature="165:179" ph="SELECT * FRO... ${$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:377" ph="SELECT * FRO... " />
+            <marker date="1482834073641" expanded="true" signature="364:378" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:413" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:414" ph="SELECT * FRO... ${static::$table}" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -502,7 +520,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1482825699842" expanded="true" signature="120:151" ph="SELECT * FRO... news" />
+            <marker date="1482830159787" expanded="true" signature="233:264" ph="SELECT * FRO... news" />
           </folding>
         </state>
       </provider>
@@ -549,7 +567,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1482825699842" expanded="true" signature="120:151" ph="SELECT * FRO... news" />
+            <marker date="1482830159787" expanded="true" signature="233:264" ph="SELECT * FRO... news" />
           </folding>
         </state>
       </provider>
@@ -679,14 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basetemplate/classes/View.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basetemplate/views/news/one.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -732,36 +742,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/basetemplate/models/NewsModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basetemplate/classes/AbstractModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/basetemplate/controllers/NewsController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+          <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
           <folding>
-            <marker date="1482825699842" expanded="true" signature="120:151" ph="SELECT * FRO... news" />
+            <marker date="1482830159787" expanded="true" signature="233:264" ph="SELECT * FRO... news" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/basetemplate/classes/DB.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+        <state relative-caret-position="374">
+          <caret line="22" column="64" selection-start-line="22" selection-start-column="64" selection-end-line="22" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basetemplate/classes/AbstractModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <marker date="1482834073641" expanded="true" signature="165:179" ph="SELECT * FRO... ${$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:377" ph="SELECT * FRO... " />
+            <marker date="1482834073641" expanded="true" signature="364:378" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:413" ph="SELECT * FRO... ${static::$table}" />
+            <marker date="1482834073641" expanded="true" signature="364:414" ph="SELECT * FRO... ${static::$table}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basetemplate/classes/View.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="37" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basetemplate/models/NewsModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
           <folding />
         </state>
       </provider>
