@@ -5,23 +5,15 @@ class NewsController
 {
     public function actionAll()
     {
-        echo '<pre>';
-        var_dump(
-            NewsModel::findAll()
-        );
-        echo '</pre>';
+
+        $art = NewsModel::findOneByColumn('title', 'новый заголовок');
+        $art->title = 'новый заголовок 123';
+        $art->save();
+
+        var_dump( $art->id );
 
 
-//        $db = new DB();
-//        $res = $db->query('SELECT * FROM news WHERE id=:id',
-//            [':id' => 2]
-//            );
 
-        die;
-//        $news = News::getAll();
-//        $view = new View();
-//        $view->items = $news;
-//        $view->display('news/all.php');
     }
 
     public function actionOne()
@@ -32,6 +24,8 @@ class NewsController
         $view->items = $item;
         $view->display('news/one.php');
     }
+
+
 }
 
 
